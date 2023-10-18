@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>科创实验室</title>
   
-  
+  <subtitle>副标题</subtitle>
   <link href="https://dongdedhua.github.io/atom.xml" rel="self"/>
   
   <link href="https://dongdedhua.github.io/"/>
-  <updated>2023-10-16T07:39:16.751Z</updated>
+  <updated>2023-10-18T06:44:17.610Z</updated>
   <id>https://dongdedhua.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我们是谁</title>
+    <link href="https://dongdedhua.github.io/2023/10/18/%E6%88%91%E4%BB%AC%E6%98%AF%E8%B0%81/"/>
+    <id>https://dongdedhua.github.io/2023/10/18/%E6%88%91%E4%BB%AC%E6%98%AF%E8%B0%81/</id>
+    <published>2023-10-18T06:26:32.000Z</published>
+    <updated>2023-10-18T06:44:17.610Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="OpenAI斜粗体粗体斜体1-项目一2-项目二-项目一-项目二-这是引用的文本。"><a href="#OpenAI斜粗体粗体斜体1-项目一2-项目二-项目一-项目二-这是引用的文本。" class="headerlink" title="OpenAI斜粗体粗体斜体1. 项目一2. 项目二- 项目一- 项目二&gt; 这是引用的文本。"></a><a href="https://openai.com/">OpenAI</a><br><em><strong>斜粗体</strong></em><br><strong>粗体</strong><br><em>斜体</em><br>1. 项目一<br>2. 项目二<br>- 项目一<br>- 项目二<br>&gt; 这是引用的文本。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">say_hello</span>():</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, world!&quot;</span>)</span><br></pre></td></tr></table></figure><br><img src="picture\openmv IDE.png" alt="替代文本" style="width:500px;height:600px;"></h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
