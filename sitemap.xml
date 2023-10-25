@@ -2,18 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dongdedhua.github.io/2023/10/18/%E6%88%91%E4%BB%AC%E6%98%AF%E8%B0%81/</loc>
+    <loc>https://zuakc.github.io/member/index.html</loc>
     
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-25</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://dongdedhua.github.io/2023/10/16/hello-world/</loc>
+    <loc>https://zuakc.github.io/history/index.html</loc>
     
-    <lastmod>2023-10-16</lastmod>
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/controller/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/complete/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/Hardware/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/Mech/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/photo/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/honor/index.html</loc>
+    
+    <lastmod>2023-10-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zuakc.github.io/2023/10/24/hello-world/</loc>
+    
+    <lastmod>2023-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,8 +84,8 @@
   
 
   <url>
-    <loc>https://dongdedhua.github.io/</loc>
-    <lastmod>2023-10-19</lastmod>
+    <loc>https://zuakc.github.io/</loc>
+    <lastmod>2023-10-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
