@@ -1,3 +1,4 @@
+https://zuakc.github.io/history/index.html
 https://zuakc.github.io/2023/12/06/music/
 https://zuakc.github.io/photo/index.html
 https://zuakc.github.io/complete/index.html
@@ -10,5 +11,4 @@ https://zuakc.github.io/map/README.html
 https://zuakc.github.io/honor/index.html
 https://zuakc.github.io/2023/10/24/hello-world/
 https://zuakc.github.io/C/index.html
-https://zuakc.github.io/history/index.html
 https://zuakc.github.io/
