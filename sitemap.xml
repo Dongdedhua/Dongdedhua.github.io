@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://zuakc.github.io/complete/index.html</loc>
+    
+    <lastmod>2023-12-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zuakc.github.io/2023/12/06/music/</loc>
     
     <lastmod>2023-12-07</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://zuakc.github.io/photo/index.html</loc>
-    
-    <lastmod>2023-12-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zuakc.github.io/complete/index.html</loc>
     
     <lastmod>2023-12-06</lastmod>
     
