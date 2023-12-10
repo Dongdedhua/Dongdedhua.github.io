@@ -1,0 +1,249 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>科创实验室 | 科创实验室</title><meta name="author" content="科创实验室运营团队"><meta name="copyright" content="科创实验室运营团队"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="教你用 jVectorMap 制作属于自己的旅行足迹 jVectorMapJVectorMap 是一个优秀的、兼容性强的 jQuery 地图插件。 它可以工作在包括 IE6 在内的各款浏览器中，矢量图输出，除官方提供各国地图数据外，用户可以使用数据转换程序定制地图数据。例如街道地图、小区地图等等。 JVectorMap 官方网站提供了很多相关文档和使用示例，感兴趣的小伙伴可以自己研究一下。 官方网">
+<meta property="og:type" content="website">
+<meta property="og:title" content="科创实验室">
+<meta property="og:url" content="https://zuakc.github.io/map/jVectorMap-Footprint/README.html">
+<meta property="og:site_name" content="科创实验室">
+<meta property="og:description" content="教你用 jVectorMap 制作属于自己的旅行足迹 jVectorMapJVectorMap 是一个优秀的、兼容性强的 jQuery 地图插件。 它可以工作在包括 IE6 在内的各款浏览器中，矢量图输出，除官方提供各国地图数据外，用户可以使用数据转换程序定制地图数据。例如街道地图、小区地图等等。 JVectorMap 官方网站提供了很多相关文档和使用示例，感兴趣的小伙伴可以自己研究一下。 官方网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s2.loli.net/2023/10/19/Uzt4LbY9g7XlDQ6.jpg">
+<meta property="article:published_time" content="2023-12-10T11:37:02.675Z">
+<meta property="article:modified_time" content="2023-12-10T11:34:42.639Z">
+<meta property="article:author" content="科创实验室运营团队">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.loli.net/2023/10/19/Uzt4LbY9g7XlDQ6.jpg"><link rel="shortcut icon" href="https://s2.loli.net/2023/10/18/bMeNAdu5coOE4Lq.jpg"><link rel="canonical" href="https://zuakc.github.io/map/jVectorMap-Footprint/README.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'mediumZoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '科创实验室',
+  isPost: false,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-12-10 19:34:42'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="科创实验室" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://s2.loli.net/2023/10/18/bMeNAdu5coOE4Lq.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/member/"><i class="fa-fw fas fa-people-group"></i><span> 成员</span></a></li><li><a class="site-page child" href="/honor/"><i class="fa-fw fas fa-award"></i><span> 荣誉</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-link"></i><span> 学习资料</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/C/"><i class="fa-fw fas fa-book"></i><span> 入门资料</span></a></li><li><a class="site-page child" href="/controller/"><i class="fa-fw fas fa-display"></i><span> 电控组</span></a></li><li><a class="site-page child" href="/Mech/"><i class="fa-fw fas fa-gear"></i><span> 机械组</span></a></li><li><a class="site-page child" href="/Hardware/"><i class="fa-fw fas fa-microchip"></i><span> 硬件组</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book-open"></i><span> 关于实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/history/"><i class="fa-fw fas fa-address-card"></i><span> 实验室介绍</span></a></li><li><a class="site-page child" href="/complete/"><i class="fa-fw fas fa-list"></i><span> 赛事介绍</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page fixed" id="page-header" style="background-image: url('https://s2.loli.net/2023/10/19/Uzt4LbY9g7XlDQ6.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="科创实验室"><img class="site-icon" src="https://s2.loli.net/2023/10/18/bMeNAdu5coOE4Lq.jpg"/><span class="site-name">科创实验室</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/member/"><i class="fa-fw fas fa-people-group"></i><span> 成员</span></a></li><li><a class="site-page child" href="/honor/"><i class="fa-fw fas fa-award"></i><span> 荣誉</span></a></li><li><a class="site-page child" href="/photo/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-link"></i><span> 学习资料</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/C/"><i class="fa-fw fas fa-book"></i><span> 入门资料</span></a></li><li><a class="site-page child" href="/controller/"><i class="fa-fw fas fa-display"></i><span> 电控组</span></a></li><li><a class="site-page child" href="/Mech/"><i class="fa-fw fas fa-gear"></i><span> 机械组</span></a></li><li><a class="site-page child" href="/Hardware/"><i class="fa-fw fas fa-microchip"></i><span> 硬件组</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book-open"></i><span> 关于实验室</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/history/"><i class="fa-fw fas fa-address-card"></i><span> 实验室介绍</span></a></li><li><a class="site-page child" href="/complete/"><i class="fa-fw fas fa-list"></i><span> 赛事介绍</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="page-site-info"><h1 id="site-title">科创实验室</h1></div></header><main class="layout" id="content-inner"><div id="page"><div id="article-container"><h1 id="教你用-jVectorMap-制作属于自己的旅行足迹"><a href="#教你用-jVectorMap-制作属于自己的旅行足迹" class="headerlink" title="教你用 jVectorMap 制作属于自己的旅行足迹"></a>教你用 jVectorMap 制作属于自己的旅行足迹</h1><p><img src="http://wx1.sinaimg.cn/large/cf5b72a1ly1fvv1gupvz0j20xx0op760.jpg" alt="我的足迹地图"></p>
+<h2 id="jVectorMap"><a href="#jVectorMap" class="headerlink" title="jVectorMap"></a>jVectorMap</h2><p>JVectorMap 是一个优秀的、兼容性强的 jQuery 地图插件。</p>
+<p>它可以工作在包括 IE6 在内的各款浏览器中，矢量图输出，除官方提供各国地图数据外，用户可以使用数据转换程序定制地图数据。例如街道地图、小区地图等等。</p>
+<p>JVectorMap 官方网站提供了很多相关文档和使用示例，感兴趣的小伙伴可以自己研究一下。</p>
+<p>官方网站：<a target="_blank" rel="noopener" href="http://jvectormap.com/">http://jvectormap.com/</a></p>
+<p><img src="http://wx4.sinaimg.cn/large/cf5b72a1ly1fvv2t7olhjj20ss0e8jvo.jpg" alt="jVectorMap"></p>
+<p>今天教大家通过 jVectorMap 制作旅行足迹地图，最终的效果可以查看下面的 Demo 演示（中国），并教大家如何将制作好的足迹地图嵌入到我们自己的博客中。</p>
+<p>Demo : <a target="_blank" rel="noopener" href="http://www.wujiayi.vip/index.php/46.html">http://www.wujiayi.vip/index.php/46.html</a></p>
+<h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><p><img src="http://wx1.sinaimg.cn/large/cf5b72a1ly1fvv432zeqzj20b806gaaa.jpg"></p>
+<ul>
+<li><p>红色框中的文件是必须要引入的内容。</p>
+</li>
+<li><p>绿色框中的文件是展示的地图，可自行到官网下载需要的地图 : <a target="_blank" rel="noopener" href="http://jvectormap.com/maps/world/world/">http://jvectormap.com/maps/world/world/</a>，拷贝到 js 目录。</p>
+</li>
+<li><p>index.html 中需要添加足迹位置和相关样式。</p>
+</li>
+</ul>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p> <code>index.html</code> 分为三部分介绍：</p>
+<ul>
+<li><p>如何更换不同国家地图。</p>
+</li>
+<li><p>如何修改地图颜色等相关样式。</p>
+</li>
+<li><p>如何添加足迹位置。</p>
+</li>
+</ul>
+<h2 id="第一部分：如何更换不同国家地图。"><a href="#第一部分：如何更换不同国家地图。" class="headerlink" title="第一部分：如何更换不同国家地图。"></a>第一部分：如何更换不同国家地图。</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--引入jQuery框架--&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;js/jquery-1.9.1.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--引入jVectorMap库--&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;js/jquery-jvectormap-1.2.2.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--引入样式表--&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">link</span> <span class="attr">href</span>=<span class="string">&quot;js/jquery-jvectormap-1.2.2.css&quot;</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">media</span>=<span class="string">&quot;screen&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">		<span class="comment">&lt;!--引入中国地图数据库--&gt;</span></span><br><span class="line">		<span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;js/jquery-jvectormap-cn-merc-en.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">&lt;!--引入美国地图数据库--&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--script type=&quot;text/javascript&quot; src=&quot;js/jquery-jvectormap-us-aea.js&quot;&gt;&lt;/script--&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--引入世界地图数据库--&gt;</span></span><br><span class="line">		<span class="comment">&lt;!--script type=&quot;text/javascript&quot; src=&quot;js/jquery-jvectormap-world-mill.js&quot;&gt;&lt;/script--&gt;</span></span><br><span class="line"></span><br><span class="line">	<span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>提前下载需要的国家地图，拷贝到 js 目录下。</p>
+<p>在 <code>&lt;head&gt;</code> 标签里引入地图数据： <code>&lt;script type=&quot;text/javascript&quot; src=&quot;js/地图文件名&quot;&gt;&lt;/script&gt;</code></p>
+<p><strong>注意</strong> ：同时只能有一个地图库，注意不要引入多个地图数据。可以选择注释掉其他的，方便更改。</p>
+<h2 id="第二部分：如何修改地图颜色等相关样式。"><a href="#第二部分：如何修改地图颜色等相关样式。" class="headerlink" title="第二部分：如何修改地图颜色等相关样式。"></a>第二部分：如何修改地图颜色等相关样式。</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">	<span class="comment">&lt;!--background-color: 地图背景颜色--&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;map&quot;</span> <span class="attr">style</span>=<span class="string">&quot;background-color:#353535&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">		$(<span class="string">&#x27;#map&#x27;</span>).<span class="title function_">vectorMap</span>(&#123;</span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">			<span class="comment">// 此处更改地图</span></span></span><br><span class="line"><span class="language-javascript">			<span class="attr">map</span>: <span class="string">&#x27;cn_merc_en&#x27;</span>,   <span class="comment">// 中国地图</span></span></span><br><span class="line"><span class="language-javascript">			<span class="comment">//map: &#x27;us-aea&#x27;,     // 美国地图</span></span></span><br><span class="line"><span class="language-javascript">			<span class="comment">//map: &#x27;world-mill&#x27;, // 世界地图</span></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">			<span class="attr">backgroundColor</span>: <span class="string">&#x27;transparent&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">zoomMin</span>: <span class="number">0.9</span>, <span class="comment">// 鼠标缩放时的最小比例</span></span></span><br><span class="line"><span class="language-javascript">			<span class="attr">zoomMax</span>: <span class="number">2.4</span>, <span class="comment">// 鼠标缩放时的最大比例</span></span></span><br><span class="line"><span class="language-javascript">			<span class="attr">focusOn</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">x</span>: <span class="number">0.55</span>,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">y</span>: <span class="number">2</span>,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">scale</span>: <span class="number">0.9</span></span></span><br><span class="line"><span class="language-javascript">			&#125;,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">regionStyle</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">initial</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="attr">fill</span>: <span class="string">&#x27;#e5e5e5&#x27;</span>,   <span class="comment">// 地图颜色</span></span></span><br><span class="line"><span class="language-javascript">					<span class="string">&quot;fill-opacity&quot;</span>: <span class="number">1</span>, <span class="comment">// 省份（州）是否隐藏，鼠标滑动时显示; 1：显示，2：隐藏。</span></span></span><br><span class="line"><span class="language-javascript">					<span class="attr">stroke</span>: <span class="string">&#x27;none&#x27;</span>,</span></span><br><span class="line"><span class="language-javascript">					<span class="string">&quot;stroke-width&quot;</span>: <span class="number">0</span>,</span></span><br><span class="line"><span class="language-javascript">					<span class="string">&quot;stroke-opacity&quot;</span>: <span class="number">1</span></span></span><br><span class="line"><span class="language-javascript">				&#125;,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">hover</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="attr">fill</span>: <span class="string">&#x27;#ccc&#x27;</span>,  <span class="comment">// 鼠标滑动至某省份的高亮颜色。</span></span></span><br><span class="line"><span class="language-javascript">					<span class="string">&quot;fill-opacity&quot;</span>: <span class="number">0.8</span></span></span><br><span class="line"><span class="language-javascript">				&#125;,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">selected</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="attr">fill</span>: <span class="string">&#x27;yellow&#x27;</span></span></span><br><span class="line"><span class="language-javascript">				&#125;,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">selectedHover</span>: &#123;&#125;</span></span><br><span class="line"><span class="language-javascript">			&#125;,</span></span><br><span class="line"><span class="language-javascript">			<span class="attr">markerStyle</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">		        <span class="attr">initial</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">		            <span class="attr">fill</span>: <span class="string">&#x27;#fd8888&#x27;</span>, <span class="comment">// 足迹位置的填充颜色</span></span></span><br><span class="line"><span class="language-javascript">		            <span class="attr">stroke</span>: <span class="string">&#x27;#fff&#x27;</span>   <span class="comment">// 足迹位置的描边颜色</span></span></span><br><span class="line"><span class="language-javascript">		        &#125;,</span></span><br><span class="line"><span class="language-javascript">				<span class="attr">hover</span>: &#123;</span></span><br><span class="line"><span class="language-javascript">					<span class="attr">fill</span>: <span class="string">&#x27;#fd2020&#x27;</span>, <span class="comment">// 鼠标滑动至足迹位置后的填充颜色</span></span></span><br><span class="line"><span class="language-javascript">					<span class="attr">stroke</span>: <span class="string">&#x27;#fff&#x27;</span>,  <span class="comment">// 鼠标滑动至足迹位置后的描边颜色</span></span></span><br><span class="line"><span class="language-javascript">					<span class="string">&quot;fill-opacity&quot;</span>: <span class="number">0.8</span></span></span><br><span class="line"><span class="language-javascript">				&#125;,</span></span><br><span class="line"><span class="language-javascript">		    &#125;,</span></span><br><span class="line"><span class="language-javascript">		&#125;);</span></span><br><span class="line"><span class="language-javascript">	</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>参照代码注释修改颜色和相关样式。</p>
+<p><strong>千万注意</strong> ：在更改地图时 <code>map: &#39;地图名称&#39;</code>  ，地图名称是地图数据文件名的后半部分。</p>
+<p>例如：</p>
+<p>美国地图文件名：jquery-jvectormap-us-aea.js</p>
+<p>那地图的名称是：us-aea</p>
+<p><strong>但是要注意把 <code>-</code> (横杠)更改成 <code>_</code>（下划线）。 否则不会显示地图。</strong></p>
+<h2 id="第三部分：如何添加足迹位置。"><a href="#第三部分：如何添加足迹位置。" class="headerlink" title="第三部分：如何添加足迹位置。"></a>第三部分：如何添加足迹位置。</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line">markers: [ // 足迹位置</span><br><span class="line"></span><br><span class="line">	// &#123;latLng: [经度（保留两位小数）, 纬度（保留两位小数）], name: &#x27;城市名称&#x27;&#125;,</span><br><span class="line">	// 推荐查询经纬度网站：http://www.gpsspg.com/maps.htm</span><br><span class="line"></span><br><span class="line">	&#123;latLng: [39.90, 116.41], name: &#x27;北京&#x27;&#125;,</span><br><span class="line">	&#123;latLng: [31.24, 121.50], name: &#x27;上海&#x27;&#125;,</span><br><span class="line"></span><br><span class="line">	&#123;latLng: [46.06, 122.06], name: &#x27;内蒙古 - 乌兰浩特&#x27;&#125;</span><br><span class="line">]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>推荐查询经纬度网站：<a target="_blank" rel="noopener" href="http://www.gpsspg.com/maps.htm">http://www.gpsspg.com/maps.htm</a></p>
+<p>语法：<code>&#123;latLng: [经度（保留两位小数）, 纬度（保留两位小数）], name: &#39;城市名称&#39;&#125;,</code>。</p>
+<h2 id="如何嵌入式到博客中"><a href="#如何嵌入式到博客中" class="headerlink" title="如何嵌入式到博客中"></a>如何嵌入式到博客中</h2><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">style</span>=<span class="string">&quot;max-width: 100%&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">marginwidth</span>=<span class="string">&quot;0&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">marginheight</span>=<span class="string">&quot;0&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">height</span>=<span class="string">&quot;750px&quot;</span> </span></span><br><span class="line"><span class="tag">      <span class="attr">src</span>=<span class="string">&quot;替换成你的足迹地图链接&quot;</span>&gt;</span>                                        </span><br><span class="line"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>把制作好的足迹地图文件放在服务器上，把访问连接放在 <code>src</code> 中。</p>
+<p>然后将上面的代码复制到你的博客页面上即可。</p>
+<p>可适配手机端和等比例缩放。</p>
+<h2 id="获取源码"><a href="#获取源码" class="headerlink" title="获取源码"></a>获取源码</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/HelloWuJiaYi/jVectorMap-Footprint</span><br></pre></td></tr></table></figure>
+
+<h2 id="问题反馈（感谢大家的问题反馈）"><a href="#问题反馈（感谢大家的问题反馈）" class="headerlink" title="问题反馈（感谢大家的问题反馈）"></a>问题反馈（感谢大家的问题反馈）</h2><ul>
+<li>部分服务器的编码问题导致显示文字乱码 | <a target="_blank" rel="noopener" href="https://github.com/maxiaohong-m">@xiaohong.m</a></li>
+</ul>
+<h2 id="广告时间"><a href="#广告时间" class="headerlink" title="广告时间"></a>广告时间</h2><p>欢迎访问我的个人博客:</p>
+<p><a target="_blank" rel="noopener" href="http://www.wujiayi.vip/">http://www.wujiayi.vip</a></p>
+<p>我的微信公众号：</p>
+<p><code>吴佳轶同学</code></p>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://s2.loli.net/2023/10/18/bMeNAdu5coOE4Lq.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">科创实验室运营团队</div><div class="author-info__description">这里是郑州航院机器人创新实验室</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn"><i></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/zuakc" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="https://github.com/zuakc" target="_blank" title="bilibili"><i class="fab fa-bilibili" style="color: #ff69b4;"></i></a><a class="social-icon" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&amp;k=n4RaPAhQVtci_tl24b3aMfkWoeE_2Ic8&amp;authKey=UzmR61ULqal0HVGA%2FRzCUU50wS7Tuuay%2BW5gEH1nJn1ZVuBLPlrFxrONcq%2BbE017&amp;noverify=0&amp;group_code=630081597" target="_blank" title="Email"><i class="fab fa-qq" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到机器人创新实验室</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%99%E4%BD%A0%E7%94%A8-jVectorMap-%E5%88%B6%E4%BD%9C%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%85%E8%A1%8C%E8%B6%B3%E8%BF%B9"><span class="toc-number">1.</span> <span class="toc-text">教你用 jVectorMap 制作属于自己的旅行足迹</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#jVectorMap"><span class="toc-number">1.1.</span> <span class="toc-text">jVectorMap</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">1.2.</span> <span class="toc-text">目录结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%80%E5%A7%8B"><span class="toc-number">1.3.</span> <span class="toc-text">开始</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%EF%BC%9A%E5%A6%82%E4%BD%95%E6%9B%B4%E6%8D%A2%E4%B8%8D%E5%90%8C%E5%9B%BD%E5%AE%B6%E5%9C%B0%E5%9B%BE%E3%80%82"><span class="toc-number">1.4.</span> <span class="toc-text">第一部分：如何更换不同国家地图。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%EF%BC%9A%E5%A6%82%E4%BD%95%E4%BF%AE%E6%94%B9%E5%9C%B0%E5%9B%BE%E9%A2%9C%E8%89%B2%E7%AD%89%E7%9B%B8%E5%85%B3%E6%A0%B7%E5%BC%8F%E3%80%82"><span class="toc-number">1.5.</span> <span class="toc-text">第二部分：如何修改地图颜色等相关样式。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86%EF%BC%9A%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%B6%B3%E8%BF%B9%E4%BD%8D%E7%BD%AE%E3%80%82"><span class="toc-number">1.6.</span> <span class="toc-text">第三部分：如何添加足迹位置。</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%88%B0%E5%8D%9A%E5%AE%A2%E4%B8%AD"><span class="toc-number">1.7.</span> <span class="toc-text">如何嵌入式到博客中</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E6%BA%90%E7%A0%81"><span class="toc-number">1.8.</span> <span class="toc-text">获取源码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%EF%BC%88%E6%84%9F%E8%B0%A2%E5%A4%A7%E5%AE%B6%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88%EF%BC%89"><span class="toc-number">1.9.</span> <span class="toc-text">问题反馈（感谢大家的问题反馈）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BF%E5%91%8A%E6%97%B6%E9%97%B4"><span class="toc-number">1.10.</span> <span class="toc-text">广告时间</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/12/08/smartcar/" title="智能车竞赛"><img src="https://s2.loli.net/2023/10/19/Uzt4LbY9g7XlDQ6.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="智能车竞赛"/></a><div class="content"><a class="title" href="/2023/12/08/smartcar/" title="智能车竞赛">智能车竞赛</a><time datetime="2023-12-08T07:19:43.000Z" title="发表于 2023-12-08 15:19:43">2023-12-08</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">十二月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-12-10T11:40:21.242Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 科创实验室运营团队</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"></div><div class="aplayer no-destroy" data-id="650793602" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-volume="0.5" data-order="random"> </div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
